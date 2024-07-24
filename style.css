@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+h1{
+    color: rgb(49, 49, 48);
+    text-align: center;
+}
+.new{
+    background-color: rgb(229, 152, 10);
+    width: 110px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+button{
+    background-color:rgb(229, 152, 10) ;
+    color: white;
+}
+button:hover{
+    background-color: red;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h3{
+    color:rgb(49, 49, 48) ;
+}
+.infoo a{
+    color: rgb(229, 152, 10);
+    font-size: 20px;
+    text-decoration: dashed;
+
+}
+@media (max-width: 768px) {
+    .container, .demo {
+        flex-direction:column; /* Stack columns vertically on smaller screens */
+    }
+
+    .items {
+        max-width: 100%; /* Ensure items take full width on smaller screens */
+    }}
